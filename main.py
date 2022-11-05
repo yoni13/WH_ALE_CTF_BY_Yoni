@@ -16,4 +16,3 @@ def getimg():
 			return send_file(os.getcwd()+'/statics/' + find)
 		except:
 			return abort(404)
-app.run(host='0.0.0.0')
